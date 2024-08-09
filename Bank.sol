@@ -16,12 +16,10 @@ contract Bank{
        _;
    }
    
- // constructo
-   
-   
-    
-    
-  function deposit()public payable{
+  constructor(){ 
+   admin=msg.sender;
+}
+   function deposit()public payable{
        if(balanceLedger[msg.sender]==0){
            index[addressCount++]=msg.sender; // index mapping key starts from 0
        }
@@ -39,7 +37,7 @@ function withdraw(uint amt)public balanceCheck(amt){
        balanceLedger[msg.sender] -= amt;
        recipient.transfer(amt);
    }
-function getMyBalance()public view returns(uint){
+   function getMyBalance()public view returns(uint){
        return balanceLedger[msg.sender];
    }
    function deleteMyAccount()public {
