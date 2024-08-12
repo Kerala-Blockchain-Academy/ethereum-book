@@ -1,0 +1,21 @@
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+abstract contract Vehicle {
+   uint prop1;
+
+
+   function assignProp(uint x) public{
+       prop1 = x;
+   }
+   function rideFn()public virtual;
+   function stopFn()external virtual;
+   function breakV()public virtual;
+}
+contract Car is Vehicle{
+   function rideFn()public override { }
+   function stopFn()external override  { }
+   function breakV()public override{ }
+
+
+}
+
