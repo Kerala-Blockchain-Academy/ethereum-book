@@ -1,0 +1,36 @@
+[
+  {
+    "description": "Aqua symbolises serenity", 
+    "external_url": "https://learn.kba.ai", 
+    "image": "https://silver-quick-koi-270.mypinata.cloud/ipfs/QmVj9i4ubGmDZEMg2vZPJ8aftbxqdgCsToQGJEuPLc9suL",
+    "name": "Aqua",
+    "attributes": [ 
+        {
+            "trait_type": "Colour", 
+            "value": "Aqua Blue"
+          }, 
+          {
+            "trait_type": "Pattern", 
+            "value": "Flurry"
+          }
+    ]
+  },
+  
+  {
+    "description": "Lilac is an epitome of gentleness", 
+    "external_url": "https://learn.kba.ai", 
+    "image": "https://silver-quick-koi-270.mypinata.cloud/ipfs/QmboVCiYQ7R1yex63B3fYLPmnCqLW6k57Dwbwbqdyp8yRS", 
+    "name": "Lilac flowers",
+    "attributes": [ 
+        {
+            "trait_type": "Colour", 
+            "value": "light purple "
+        }, 
+        {
+            "trait_type": "Pattern", 
+            "value": "aesthetic"
+        }
+    ]
+  }
+  
+]
