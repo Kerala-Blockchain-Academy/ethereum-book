@@ -27,3 +27,19 @@ node eventOracle.js
 
 6. Now open interactOV2.sol in RemixIDE and deploy the contract using OracleV2 contract address and interact with the Remix interface.Here you have to first click the requestUpdate button that generates a request to OracleV2 that emits an event. On getting the event the eventOracle.js file will get the updated real-world information from an api and populate it to blockchain.Now click the getPriceData button to get the data.
 
+
+Commands to compile contract using hardhat
+
+```
+npx hardhat compile
+
+```
+
+
+Commands to run contract using hardhat
+
+```
+npx hardhat run ./scripts/deployV1.js 
+
+```
+
