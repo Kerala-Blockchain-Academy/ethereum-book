@@ -1,0 +1,29 @@
+﻿1. Slither
+https://github.com/crytic/slither
+
+2. Echidna
+        https://github.com/crytic/echidna
+
+
+3. Mythril
+https://github.com/Consensys/mythril
+
+
+4. Medusa
+https://github.com/crytic/medusa
+
+
+5. Foundry
+https://github.com/chainstacklabs/smart-contracts-audit-foundry-slither
+
+
+6. Halmos
+        https://github.com/a16z/halmos
+
+
+7. Solodit
+        https://github.com/Cyfrin/audit-checklist
+
+
+8. Cyfrin Aderyn
+https://github.com/Cyfrin/aderyn
